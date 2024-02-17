@@ -1,7 +1,7 @@
-package org.utexas.enm.restapi.repository;
+package org.utexas.enm.user.restapi.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.utexas.enm.restapi.model.User;
+import org.utexas.enm.user.restapi.model.User;
 
 import java.util.Optional;
 

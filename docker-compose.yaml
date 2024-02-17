@@ -1,0 +1,27 @@
+version: '3.9'
+
+services:
+  user-rest-api:
+    container_name: user-service
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_NAME=users
+      - DB_USER=user-service
+      - DB_PASSWORD=password
+    depends_on:
+      - db
+
+  db:
+    container_name: postgres
+    image: postgres
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_DB=users
+      - POSTGRES_USER=user-service
+      - POSTGRES_PASSWORD=password
+

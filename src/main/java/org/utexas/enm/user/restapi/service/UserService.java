@@ -1,10 +1,10 @@
-package org.utexas.enm.restapi.service;
+package org.utexas.enm.user.restapi.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import org.utexas.enm.restapi.model.User;
-import org.utexas.enm.restapi.repository.UserRepository;
+import org.utexas.enm.user.restapi.model.User;
+import org.utexas.enm.user.restapi.repository.UserRepository;
 
 import java.util.List;
 import java.util.Optional;

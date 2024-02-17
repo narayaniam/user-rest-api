@@ -1,4 +1,4 @@
-package org.utexas.enm.restapi.model;
+package org.utexas.enm.user.restapi.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

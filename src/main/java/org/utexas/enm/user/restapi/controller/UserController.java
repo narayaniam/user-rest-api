@@ -1,4 +1,4 @@
-package org.utexas.enm.restapi.controller;
+package org.utexas.enm.user.restapi.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -6,8 +6,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
-import org.utexas.enm.restapi.model.User;
-import org.utexas.enm.restapi.service.UserService;
+import org.utexas.enm.user.restapi.model.User;
+import org.utexas.enm.user.restapi.service.UserService;
 
 import java.util.List;
 import java.util.Optional;
